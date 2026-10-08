@@ -1,0 +1,12 @@
+{
+  "name": "cc-cache-abuse",
+  "owner": { "name": "baylikestempura" },
+  "description": "Keeps your Claude Code prompt cache warm with the 1-hour TTL.",
+  "plugins": [
+    {
+      "name": "cc-cache-abuse",
+      "source": "./",
+      "description": "Forces the 1-hour prompt-cache TTL and pings the cache every 58 minutes of idle time so it never lapses."
+    }
+  ]
+}

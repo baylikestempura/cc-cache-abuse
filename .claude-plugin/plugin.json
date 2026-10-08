@@ -1,0 +1,6 @@
+{
+  "name": "cc-cache-abuse",
+  "version": "0.1.0",
+  "description": "Forces the 1-hour prompt-cache TTL and pings the cache every 58 minutes of idle time so it never lapses.",
+  "author": { "name": "baylikestempura" }
+}
